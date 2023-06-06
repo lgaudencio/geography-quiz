@@ -8,3 +8,31 @@
 body {
     background-color: #3f4045;
 }
+
+h1 {
+    font-family: Monomaniac One;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#logo-container {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#logo-picture img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo-heading h1 {
+    font-size: 420%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #dddddd;
+}
