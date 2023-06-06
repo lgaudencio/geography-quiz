@@ -2,9 +2,9 @@ let modal = document.querySelector("#modal");
 
 let openButton = document.querySelector("#openModal"); 
 
-let closeButton = document.querySelector(".close-modal")[0];
+let closeButton = document.getElementsByClassName("close-modal")[0];
 
-let okButton = document.querySelector(".footer-button")[0]; 
+let okButton = document.getElementsByClassName("footer-button")[0]; 
 
 openButton.onclick = () => modal.style.display = "block";
 
