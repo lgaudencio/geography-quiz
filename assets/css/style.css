@@ -140,3 +140,21 @@ header a {
 .modal-button>button:hover {
     color: #56aeff;
 }
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#footer i {
+    margin: 5px 30px;
+    font-size: 160%;
+    color: #dddddd;
+}
+
+#footer i:hover {
+    color: #56aeff;
+}
