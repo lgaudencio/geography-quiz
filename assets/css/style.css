@@ -253,3 +253,15 @@ header a {
     cursor: pointer;
     transition: 0.3s;
 }
+
+.controls>button {
+    background: #3f4045;
+    color: #dddddd;
+    font-size: 130%;
+    width: 100%;
+    border: 0;
+    padding: 12px;
+    margin: 20px auto 0;
+    border-radius: 35px;
+    cursor: pointer;
+}
