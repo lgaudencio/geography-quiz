@@ -13,6 +13,10 @@ h1 {
     font-family: Monomaniac One;
 }
 
+h2, h3, .modal-body li {
+    font-family: Noto Sans Chorasmian;
+}
+
 header a {
     text-decoration: none;
 }
