@@ -188,3 +188,23 @@ header a {
     color: #dddddd;
     text-align: center;
 }
+
+.difficulty-button {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.difficulty-button button {
+    font-size: 190%;
+    background-color: #3f4045;
+    color: #dddddd;
+    border: none;
+}
+
+.difficulty-button button:hover {
+    cursor: pointer;
+}
