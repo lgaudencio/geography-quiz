@@ -112,6 +112,10 @@ header a {
     float: left;
 }
 
+.modal-body li {
+    margin-bottom: 12px;
+}
+
 .footer-button {
     font-size: 130%;
     padding: 7px;
