@@ -216,3 +216,26 @@ header a {
     border-radius: 15px;
     padding: 40px;
   }
+
+  .quiz-container h2 {
+    color: #3f4045;
+    font-size: 180%;
+    border-bottom: 3px solid #3f4045;
+    padding-bottom: 25px;
+    text-align: center
+  }
+
+  .quiz-content h3 {
+    font-size: 180%;
+    color: #3f4045;
+    padding: 25px 0 10px 0;
+    text-align: center;
+  }
+
+  .quiz-content h4 {
+    color: #3f4045;
+    font-size: 150%;
+    text-align: center;
+    padding: 7px 0;
+    font-style: italic;
+  }
