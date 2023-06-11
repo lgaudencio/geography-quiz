@@ -232,6 +232,7 @@ header a {
     color: #dddddd;
     text-align: center;
     margin-top: 25px;
+    text-decoration: 2px underline #56aeff;
 }
 
 .difficulty-button {
