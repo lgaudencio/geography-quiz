@@ -44,6 +44,8 @@ header a {
     color: #dddddd;
 }
 
+/* For the Navigation Bar */
+
 #nav {
     display: flex; 
     align-items: center; 
