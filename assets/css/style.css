@@ -43,6 +43,34 @@ header a {
     color: #dddddd;
 }
 
+#nav {
+    display: flex; 
+    align-items: center; 
+    width: 100%;
+    justify-content: center;
+}
+
+#nav li {
+    display: inline-block; 
+    padding-top: 20px;
+    letter-spacing: 1px;
+    font-size: 125%;
+    margin: 0 20px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #dddddd;
+}
+
+#nav a:hover {
+    color: #56aeff;
+}
+
+.active {
+    border-bottom: 2px solid #56aeff;
+}
+
 /* For the Modal */
 
 .modal-button {
