@@ -17,6 +17,8 @@ h2, h3, h4, .modal-body li {
     font-family: Noto Sans Chorasmian;
 }
 
+/* Fir the Logo Section */
+
 header a {
     text-decoration: none;
 }
@@ -40,6 +42,8 @@ header a {
     letter-spacing: 2px;
     color: #dddddd;
 }
+
+/* For the Modal */
 
 .modal-button {
     text-align: center;
@@ -149,6 +153,8 @@ header a {
     color: #56aeff;
 }
 
+/* For the Footer Section */
+
 #footer {
     position: fixed;
     left: 0;
@@ -166,6 +172,8 @@ header a {
 #footer i:hover {
     color: #56aeff;
 }
+
+/* For the Button that takes the user to the Difficulty Section */
 
 .get-started {
     background-color: #3f4045;
@@ -186,6 +194,8 @@ header a {
     border: 3px solid #56aeff;
     cursor: pointer;
 }
+
+/* For Difficulty Section */
 
 .difficulty-lvl>h2 {
     font-size: 220%;
@@ -212,6 +222,8 @@ header a {
 .difficulty-button button:hover {
     cursor: pointer;
 }
+
+/* For the Quiz Container */
 
 .quiz-container {
     background-color: #dddddd;
