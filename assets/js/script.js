@@ -41,7 +41,7 @@ const quizContainer = document.querySelector(".quiz-container");
 const difficultyLvl = document.querySelector(".difficulty-lvl");
 
 // Declare variable so the correct JSON file difficulty mode questions are displayed the the user 
-const diff = document.getElementsByClassName("diff"); 
+const difficulty = document.getElementsByClassName("difficulty"); 
 
 // Declare variable for the current question number to be set to 0
 let currentQuestionNumber = 0;
