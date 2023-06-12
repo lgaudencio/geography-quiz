@@ -35,3 +35,5 @@ const quizContainer = document.querySelector(".quiz-container");
 const difficultyLvl = document.querySelector(".difficulty-lvl");
 
 const diff = document.getElementsByClassName("diff"); 
+
+let currentQuestionNumber = 0;
