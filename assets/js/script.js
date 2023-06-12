@@ -37,3 +37,7 @@ const difficultyLvl = document.querySelector(".difficulty-lvl");
 const diff = document.getElementsByClassName("diff"); 
 
 let currentQuestionNumber = 0;
+
+let score = 0;
+
+let incorrect = 0;
