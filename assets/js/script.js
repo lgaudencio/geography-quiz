@@ -1,3 +1,5 @@
+// JAVASCRIPT FOR THE MODAL 
+
 // Declare variable for the modal
 let modal = document.querySelector("#modal");
 
