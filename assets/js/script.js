@@ -29,3 +29,5 @@ const nextButton = document.querySelector("#next-button");
 const feedbackSection = document.querySelector("#feedback");
 
 const homeButton = document.querySelector("#home-button");
+
+const quizContainer = document.querySelector(".quiz-container");
