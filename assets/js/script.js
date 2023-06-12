@@ -19,27 +19,38 @@ closeButton.onclick = () => modal.style.display = "none";
 // When the 'Ok' button is clicked, the modal will also close
 okButton.onclick = () => modal.style.display = "none"; 
 
-
+// Declare varibale so the questions on the JSON file will be displayed to the user
 const displayQuestion = document.querySelector("#display-question");
 
+// Declare variable so the answer options on the JSON file will be dispayed to the user
 const answerButtons = document.querySelector("#answer-buttons");
 
+// Declare variable so a 'Next' button will appear once the user makes their answer selection
 const nextButton = document.querySelector("#next-button");
 
+// Declare variable so feedback will be given to the user based on their results
 const feedbackSection = document.querySelector("#feedback");
 
+// Declare variable so a 'Home' button will be displayed to the user once the quiz is completed
 const homeButton = document.querySelector("#home-button");
 
+// Declare variable for the quiz container so that it is displayed to the user once they select their difficulty mode
 const quizContainer = document.querySelector(".quiz-container");
 
+//  Declare variable for the difficulty mode options to disappear once the user makes their selection
 const difficultyLvl = document.querySelector(".difficulty-lvl");
 
+// Declare variable so the correct JSON file difficulty mode questions are displayed the the user 
 const diff = document.getElementsByClassName("diff"); 
 
+// Declare variable for the current question number to be set to 0
 let currentQuestionNumber = 0;
 
+// Declare variable for correct answers to be set to 0
 let score = 0;
 
+// Declare variable for incorrect answers to be set to 0
 let incorrect = 0;
 
+// Declare variable for the shuffled questions to be set to 0
 let shuffledQuestions = 0;
