@@ -25,3 +25,5 @@ const displayQuestion = document.querySelector("#display-question");
 const answerButtons = document.querySelector("#answer-buttons");
 
 const nextButton = document.querySelector("#next-button");
+
+const feedbackSection = document.querySelector("#feedback");
