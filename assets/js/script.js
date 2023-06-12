@@ -33,3 +33,5 @@ const homeButton = document.querySelector("#home-button");
 const quizContainer = document.querySelector(".quiz-container");
 
 const difficultyLvl = document.querySelector(".difficulty-lvl");
+
+const diff = document.getElementsByClassName("diff"); 
