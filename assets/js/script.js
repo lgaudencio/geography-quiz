@@ -21,6 +21,9 @@ closeButton.onclick = () => modal.style.display = "none";
 // When the 'Ok' button is clicked, the modal will also close
 okButton.onclick = () => modal.style.display = "none"; 
 
+
+// JAVASCRIPT FOR THE QUIZ
+
 // Declare varibale so the questions on the JSON file will be displayed to the user
 const displayQuestion = document.querySelector("#display-question");
 
