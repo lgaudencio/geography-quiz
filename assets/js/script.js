@@ -41,3 +41,5 @@ let currentQuestionNumber = 0;
 let score = 0;
 
 let incorrect = 0;
+
+let shuffledQuestions = 0;
