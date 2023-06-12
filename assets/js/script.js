@@ -18,3 +18,6 @@ closeButton.onclick = () => modal.style.display = "none";
 
 // When the 'Ok' button is clicked, the modal will also close
 okButton.onclick = () => modal.style.display = "none"; 
+
+
+const displayQuestion = document.querySelector("#display-question");
