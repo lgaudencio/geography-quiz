@@ -83,3 +83,23 @@ function startQuiz() {
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     nextButton.innerHTML = "Next";
 }
+
+function displayQuestion() {
+    let displayedQuestion = questions[currentQuestionNumber];
+    let questionNumber = currentQuestionNumber + 1;
+    displayQuestion.innerHTML = `${questionNumber}&#41; ${displayedQuestion.question}&#63;`;
+  
+    for (let i = 0; i < displayedQuestion.answers.length; i++) {
+      const answer = displayedQuestion.answers[i];
+  
+      const button = document.createElement("button");
+      button.innerText = answer.text;
+      button.classList.add("button");
+      answerButtons.appendChild(button);
+  
+      if (answer.correct) {
+        button.dataset.correct = answer.correct;
+        }
+        button.addEventListener("click", selectAnswer);
+    };
+}
