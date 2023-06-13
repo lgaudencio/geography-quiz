@@ -60,6 +60,8 @@ let incorrect = 0;
 // Declare variable for the shuffled questions to be set to 0
 let shuffledQuestions = 0;
 
+let questions = [];
+
 for (let btn of difficulty){
     btn.addEventListener("click", async function() {
       let response = await fetch(`${btn.value}.json`);
