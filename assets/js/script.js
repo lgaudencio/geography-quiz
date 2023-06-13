@@ -72,3 +72,13 @@ for (let btn of difficulty){
       quizContainer.style.display = "block";
     });
 }
+
+function startQuiz() {
+    currentQuestionNumber = 0;
+    score = 0;
+    incorrect = 0;
+    shuffledQuestions = 0;
+    document.querySelector("#feedback").hidden = true;
+    shuffledQuestions = questions.sort(() => Math.random() - 0.5);
+    nextButton.innerHTML = "Next";
+}
