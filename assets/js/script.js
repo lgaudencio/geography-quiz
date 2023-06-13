@@ -70,6 +70,7 @@ for (let btn of difficulty){
       console.log(questions);
       diffLvl.style.display = "none";
       quizContainer.style.display = "block";
+      startQuiz();
     });
 }
 
