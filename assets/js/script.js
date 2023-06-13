@@ -82,10 +82,10 @@ function startQuiz() {
     document.querySelector("#feedback").hidden = true;
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     nextButton.innerHTML = "Next";
-    displayQuestion(); 
+    presentQuestion(); 
 }
 
-function displayQuestion() {
+function presentQuestion() {
     let displayedQuestion = questions[currentQuestionNumber];
     let questionNumber = currentQuestionNumber + 1;
     displayQuestion.innerHTML = `${questionNumber}&#41; ${displayedQuestion.question}&#63;`;
