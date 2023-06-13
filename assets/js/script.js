@@ -104,3 +104,11 @@ function displayQuestion() {
         button.addEventListener("click", selectAnswer);
     };
 }
+
+function reset() {
+    homeButton.style.display = "none";
+    nextButton.style.display = "none";
+    while (answerButtons.firstChild) {
+      answerButtons.removeChild(answerButtons.firstChild);
+    }
+  }
