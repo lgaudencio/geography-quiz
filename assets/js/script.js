@@ -59,3 +59,14 @@ let incorrect = 0;
 
 // Declare variable for the shuffled questions to be set to 0
 let shuffledQuestions = 0;
+
+for (let btn of difficulty){
+    btn.addEventListener("click", async function() {
+      let response = await fetch(`${btn.value}.json`);
+      const json = await response.json();
+      questions = json.questions;
+      console.log(questions);
+      diffLvl.style.display = "none";
+      quizContainer.style.display = "block";
+    });
+}
