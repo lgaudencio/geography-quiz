@@ -82,6 +82,7 @@ function startQuiz() {
     document.querySelector("#feedback").hidden = true;
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     nextButton.innerHTML = "Next";
+    displayQuestion(); 
 }
 
 function displayQuestion() {
