@@ -23,6 +23,20 @@ World Capitals Quiz is a JavaScript multiple choice quiz game. It allows users t
     * A 404 error page is implemented, just in case the user happens to navigate to a broken link. 
     * If the user lands on this page, they will easily be navigated back to the hame page by their clicking on the link given, or by clicking the header. There will be no need to use the back button on the browser. 
 
+## Home Page
+
+* Rules and Instructions Modal
+
+    * The home page will have a button that user will be encouraged to click on for the rules and instructions in relation to the quiz. When this button is clicked, a modal will be displayed. 
+
+    * This was implemented so that the user can have a clear understanding of how to play the game. 
+
+* Game Start Button 
+
+    * A button labelled ‘Get Started!’ will direct the user to select a difficulty mode.
+
+    * This will allow the user to select their desired difficulty mode and start the game. 
+
 
 # Technologies 
 
