@@ -118,11 +118,11 @@ function reset() {
   
   };
 
-  function displayScore() {
-    reset();
-    displayQuestion.innerText = `Score: ${score} Correct & ${incorrect} Wrong`;
-    nextButton.innerText = "Restart";
-    homeButton.style.display = "block";
-    nextButton.style.display = "block";
-  };
+function displayScore() {
+  reset();
+  displayQuestion.innerText = `Score: ${score} Correct & ${incorrect} Wrong`;
+  nextButton.innerText = "Restart";
+  homeButton.style.display = "block";
+  nextButton.style.display = "block";
+};
   
