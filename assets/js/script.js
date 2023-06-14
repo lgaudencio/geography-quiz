@@ -118,6 +118,22 @@ function reset() {
   
   };
 
+function scoreMessage() {
+  if (score === 0) {
+    return `Did you even try?`;
+  } else if (score <= 5) {
+    return `I think it's time to open an atlas!`;
+  } else if (score <= 10) {
+    return `Slowly but surley getting there...`;
+  } else if (score <= 15) {
+    return `More than half, impressive!`;
+  } else if (score <= 19) {
+    return `Almost there!`;
+  } else if (score === 20) {
+    return `100% - Perfect!`
+  }
+};
+
 function displayScore() {
   reset();
   displayQuestion.innerText = `Score: ${score} Correct & ${incorrect} Wrong`;
