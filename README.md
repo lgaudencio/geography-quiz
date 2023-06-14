@@ -42,9 +42,7 @@ GitHubs IDE was used to create this website, it was then pushed to the remote re
 Git commands were used during the development to push code to the remote repo, the following commands were the following:
 
 * *git add <file>* - This command is used to add a file to the staging area.
-
 * *git commit -m "text"* - This git command is used to commit changes made to the code and sent to the local repository.
-
 * *git push* - This git command is used then the committed code was pushed to the remote repository on GitHub.
 
 ## Deployment to GitHub Pages
