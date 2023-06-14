@@ -89,3 +89,32 @@ function reset() {
       answerButtons.removeChild(answerButtons.firstChild);
     }
   }
+
+  function pickAnswer(event) {
+    const selectedAnswer = event.target;
+    const correctAnswer = selectedAnswer.dataset.correct === "true";
+  
+    if (correctAnswer) {
+      selectedAnswer.classList.add("correct");
+      score++;
+    } else {
+      selectedAnswer.classList.add("incorrect");
+      incorrect++;
+    }
+  
+    const buttons = answerButtons.children;
+    for (let i = 0; i < buttons.length; i++) {
+      const button = buttons[i];
+  
+      if (button.dataset.correct === "true") {
+        button.classList.add("correct");
+      }
+  
+      button.disabled = true;
+  
+    };
+  
+    nextButton.style.display = "block";
+  
+  };
+  
