@@ -54,3 +54,15 @@ Git commands were used during the development to push code to the remote repo, t
     * On the source section drop down menu, click on Main.
     * Click Save.
     * If done correctly, a link to the live website will be given on a banner.
+
+## Clone the Repository Code Locally
+
+To clone the Github repository to use locally, the following will have to be done:
+
+* Click on the green Code button, which has a drop down menu 
+* Click on HTTPS
+* Copy the repository link that's on the clipboard 
+* Open an IDE of your choice (note: git must be installed for the next steps)
+* Type git clone copied-git-url into the terminal of the IDE
+
+Once these steps are followed, the project will be cloned on your local machine ready for use.
