@@ -324,3 +324,7 @@ header a {
     border-radius: 35px;
     cursor: pointer;
 }
+
+@media screen and (min-width: 280px) {
+    
+}
