@@ -326,5 +326,8 @@ header a {
 }
 
 @media screen and (min-width: 280px) {
-    
+    .social-media {
+        margin: 0 auto;
+        position: relative;
+    }
 }
