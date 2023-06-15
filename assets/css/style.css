@@ -230,6 +230,11 @@ header a {
     cursor: pointer;
 }
 
+.align {
+    text-align: center;
+    margin-top: 60px;
+}
+
 /* For Difficulty Section */
 
 .difficulty-lvl>h2 {
