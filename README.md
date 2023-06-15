@@ -67,6 +67,17 @@ World Capitals Quiz is a JavaScript multiple choice quiz game. It allows users t
 
 
 
+## Functional Testing
+
+### Navigation Links
+
+Testing was conducted on the navigation links on all pages to ensure that the corresponding page opens. This was accomplished by clicking on each of the navigation links on each page. Navigation Link (Page Opened):
+
+* Home (index.html)
+* Quiz (game.html)
+
+Links on all pages navigated to the correct pages as expected.
+
 ## Deployment 
 
 ### Version Control
