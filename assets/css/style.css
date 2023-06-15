@@ -330,4 +330,13 @@ header a {
         margin: 0 auto;
         position: relative;
     }
+
+    .modal-content {
+        width: 90%;
+        text-align: center;
+    }
+    
+    .modal-container {
+        padding-top: 0;
+    }
 }
