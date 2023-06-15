@@ -3,9 +3,9 @@
 World Capitals Quiz is a JavaScript multiple choice quiz game. It allows users to select a difficulty mode depending on their world capital knowledge and it will give the user feedback on their end result. 
 
 
-# Features
+## Features
 
-## Site Wide
+### Site Wide
 
 * Navigation Menu: 
     * The navigation menu contains links to Home and Quiz pages and it is responsive on all devices. 
@@ -23,7 +23,7 @@ World Capitals Quiz is a JavaScript multiple choice quiz game. It allows users t
     * A 404 error page is implemented, just in case the user happens to navigate to a broken link. 
     * If the user lands on this page, they will easily be navigated back to the hame page by their clicking on the link given, or by clicking the header. There will be no need to use the back button on the browser. 
 
-## Home Page
+### Home Page
 
 * Rules and Instructions Modal
 
@@ -38,7 +38,7 @@ World Capitals Quiz is a JavaScript multiple choice quiz game. It allows users t
     * This will allow the user to select their desired difficulty mode and start the game. 
 
 
-# Technologies 
+## Technologies 
 
 * HTML
     * HTML was used as the main language to develop the structure of the website.
@@ -67,9 +67,9 @@ World Capitals Quiz is a JavaScript multiple choice quiz game. It allows users t
 
 
 
-# Deployment 
+## Deployment 
 
-## Version Control
+### Version Control
 
 GitHubs IDE was used to create this website, it was then pushed to the remote repository ‘geography-quiz’.
 
@@ -79,7 +79,7 @@ Git commands were used during the development to push code to the remote repo, t
 * *git commit -m "text"* - This git command is used to commit changes made to the code and sent to the local repository.
 * *git push* - This git command is used then the committed code was pushed to the remote repository on GitHub.
 
-## Deployment to GitHub Pages
+### Deployment to GitHub Pages
 
 * The website was deployed to GitHub pages, the steps to do this are the following:
 
@@ -89,7 +89,7 @@ Git commands were used during the development to push code to the remote repo, t
     * Click Save.
     * If done correctly, a link to the live website will be given on a banner.
 
-## Clone the Repository Code Locally
+### Clone the Repository Code Locally
 
 To clone the Github repository to use locally, the following will have to be done:
 
