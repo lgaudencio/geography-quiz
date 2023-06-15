@@ -191,13 +191,25 @@ header a {
     text-align: center;
 }
 
-#footer i {
-    margin: 5px 30px;
-    font-size: 160%;
-    color: #dddddd;
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
-#footer i:hover {
+.social-media i {
+    margin: 40px 30px 10px 30px;
+    font-size: 170%;
+    color: #dddddd;
+    transition: color .2s;
+}
+
+.social-media i:hover {
     color: #56aeff;
 }
 
