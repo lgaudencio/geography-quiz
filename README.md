@@ -78,6 +78,13 @@ Testing was conducted on the navigation links on all pages to ensure that the co
 
 Links on all pages navigated to the correct pages as expected.
 
+### Footer Social Media Icons/Links
+
+Testing was performed on the Font Awesome Social Media icons to ensure that when the link is clicked, the corresponding page opens in a new tab.
+
+Each item opened in a new tab as expected when clicked. 
+
+
 ## Deployment 
 
 ### Version Control
