@@ -84,6 +84,12 @@ Testing was performed on the Font Awesome Social Media icons to ensure that when
 
 Each item opened in a new tab as expected when clicked. 
 
+### Modal 
+
+Testing was performed on the modal to ensure that when it is clicked the modal will display the Rules & Instructions of the quiz. The modal opened as expected and displayed the correct information. 
+
+Testing was also performed on the ‘X’ located on the top right of the modal and the ‘Ok’ button located at the footer of the modal. It is expected that when the user clicks on either of them, the modal shall close. Testing was conducted separately, for obvious reasons, but both elements behaved as expected, they both successfully closed the modal. 
+
 
 ## Deployment 
 
