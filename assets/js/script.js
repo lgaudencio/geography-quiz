@@ -134,6 +134,11 @@ function scoreMessage() {
   }
 };
 
+function resultFeedback() {
+  document.querySelector("#feedback").hidden = false;
+  feedbackSection.innerText = `${scoreMessage()}`
+};
+
 function displayScore() {
   reset();
   displayQuestion.innerText = `Score: ${score} Correct & ${incorrect} Wrong`;
