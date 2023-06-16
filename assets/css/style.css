@@ -327,7 +327,7 @@ header a {
 }
 
 @media screen and (min-width: 280px) {
-    
+
     .modal-content {
         width: 90%;
         text-align: center;
@@ -340,4 +340,15 @@ header a {
     .quiz-container {
         width: 65%;
     }
-};
+}
+
+@media screen and (min-width: 600px) {
+
+    .modal-container {
+        padding-top: 70px;
+    }
+
+    .quiz-container {
+        width: 80%;
+    }
+}
