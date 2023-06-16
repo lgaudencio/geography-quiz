@@ -147,3 +147,11 @@ function displayScore() {
   nextButton.style.display = "block";
 };
   
+function nextButtonControl() {
+  currentQuestionNumber++;
+  if (currentQuestionNumber < questions.length) {
+    presentQuestion()
+  } else {
+    displayScore();
+  }
+};
