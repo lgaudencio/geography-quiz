@@ -352,3 +352,19 @@ header a {
         width: 80%;
     }
 }
+
+@media screen and (min-width: 1000px) {
+
+    .modal-container {
+        padding-top: 120px;
+    }
+
+    .modal-content {
+        width: 50%;
+        text-align: left;
+    }
+
+    .quiz-container {
+        width: 45%;
+    }
+}
