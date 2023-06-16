@@ -326,12 +326,8 @@ header a {
     cursor: pointer;
 }
 
-/* @media screen and (min-width: 280px) {
-    .social-media {
-        margin: 0 auto;
-        position: relative;
-    }
-
+@media screen and (min-width: 280px) {
+    
     .modal-content {
         width: 90%;
         text-align: center;
@@ -344,4 +340,4 @@ header a {
     .quiz-container {
         width: 65%;
     }
-} */
+};
