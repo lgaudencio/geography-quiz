@@ -36,6 +36,10 @@ World Capitals Quiz is a JavaScript multiple choice geography quiz game. It allo
     * The home page will have a button that user will be encouraged to click on for the rules and instructions in relation to the quiz. When this button is clicked, a modal will be displayed. 
     * This was implemented so that the user can have a clear understanding of how to play the game. 
 
+    ![Image of the Modal Button](assets/images/modal-button.png)
+
+    ![Image of the Modal Content](assets/images/modal-content.png)
+
 * Game Start Button 
 
     * A button labelled ‘Get Started!’ will direct the user to select a difficulty mode.
