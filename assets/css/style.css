@@ -339,4 +339,8 @@ header a {
     .modal-container {
         padding-top: 0;
     }
+
+    .quiz-container {
+        width: 65%;
+    }
 }
