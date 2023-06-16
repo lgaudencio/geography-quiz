@@ -10,6 +10,7 @@ World Capitals Quiz is a JavaScript multiple choice geography quiz game. It allo
 * Navigation Menu: 
     * The navigation menu contains links to Home and Quiz pages and it is responsive on all devices. 
     * This will allow the user to easily navigate between these pages on a device of any size. 
+![Image of the Navigation Menu](assets/images/nav-bar.png)
 
 * Footer: 
     * The footer will contain the social media links to Instagram, Facebook and Twitter. 
