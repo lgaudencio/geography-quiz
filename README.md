@@ -23,6 +23,8 @@ World Capitals Quiz is a JavaScript multiple choice geography quiz game. It allo
     * A favicon is added to every page, this favicon image is the same as our logo.  
     * By using a favicon, it will allow the user to easily identify the website in case they have multiple tabs opened. 
 
+![Image of the Favicon](assets/images/favicon.png)
+
 * 404 Page: 
     * A 404 error page is implemented, just in case the user happens to navigate to a broken link. 
     * If the user lands on this page, they will easily be navigated back to the hame page by their clicking on the link given, or by clicking the header. There will be no need to use the back button on the browser. 
