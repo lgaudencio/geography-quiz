@@ -17,6 +17,8 @@ World Capitals Quiz is a JavaScript multiple choice geography quiz game. It allo
     * The footer will contain the social media links to Instagram, Facebook and Twitter. 
     * This will allow the user to follow us and the above platforms to see when we release more quizzes for them to attempt. 
 
+![Image of the Footer](assets/images/footer.png)
+
 * Favicon: 
     * A favicon is added to every page, this favicon image is the same as our logo.  
     * By using a favicon, it will allow the user to easily identify the website in case they have multiple tabs opened. 
