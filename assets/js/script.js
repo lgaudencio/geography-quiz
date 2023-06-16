@@ -155,3 +155,11 @@ function nextButtonControl() {
     displayScore();
   }
 };
+
+nextButton.addEventListener("click", () => {
+  if (currentQuestionNumber < questions.length) {
+    nextButtonControl();
+  } else {
+    startQuiz();
+  }
+});
