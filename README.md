@@ -76,6 +76,10 @@ World Capitals Quiz is a JavaScript multiple choice geography quiz game. It allo
     * Along with the feedback, the user will have the opportunity to either restart that same quiz or they will have the option to go back to the homepage and select a different difficulty mode. 
     * The user will have two controls to choose from ‘Restart’ or ‘Home’.  
 
+### Features Left to Implement 
+
+* A time limit for each question. 
+* Sound effects for correct and incorrect answers. 
 
 ## Technologies 
 
