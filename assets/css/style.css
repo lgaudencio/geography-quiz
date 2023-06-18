@@ -282,14 +282,6 @@ header a {
     display: none;
 }
 
-.quiz-container h2 {
-    color: #3f4045;
-    font-size: 180%;
-    border-bottom: 3px solid #3f4045;
-    padding-bottom: 25px;
-    text-align: center
-}
-
 .quiz-content h3 {
     font-size: 180%;
     color: #3f4045;
