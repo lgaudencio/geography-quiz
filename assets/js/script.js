@@ -83,12 +83,12 @@ function presentQuestion() {
 }
 
 function reset() {
-    homeButton.style.display = "none";
-    nextButton.style.display = "none";
-    while (answerButtons.firstChild) {
-      answerButtons.removeChild(answerButtons.firstChild);
-    }
+  homeButton.style.display = "none";
+  nextButton.style.display = "none";
+  while (answerButtons.firstChild) {
+    answerButtons.removeChild(answerButtons.firstChild);
   }
+}
 
 function pickAnswer(event) {
   const selectedAnswer = event.target;
