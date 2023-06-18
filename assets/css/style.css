@@ -314,6 +314,15 @@ header a {
     transition: 0.3s;
 }
 
+.button:hover:not([disabled]) {
+    background-color: #3f4045;
+    color: #ffffff;
+}
+
+.button:disabled {
+    cursor: not-allowed;
+}
+
 .controls>button {
     background: #3f4045;
     color: #dddddd;
