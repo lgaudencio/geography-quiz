@@ -18,7 +18,7 @@ h2, h3, h4, .modal-body li, #nav li {
     letter-spacing: 1px;
 }
 
-#nav a, .close-modal, .footer-button, .modal-button>button, .social-media i, .get-started {
+#nav a, .close-modal, .footer-button, .modal-button>button, .social-media i, .get-started, .difficulty-button button {
     transition: color 0.2s;
 }
 
@@ -267,6 +267,7 @@ header a {
 }
 
 .difficulty-button button:hover {
+    color: #56aeff;
     cursor: pointer;
 }
 
