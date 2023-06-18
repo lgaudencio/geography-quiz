@@ -54,27 +54,40 @@ World Capitals Quiz is a JavaScript multiple choice geography quiz game. It allo
     * The page will have four difficulty modes to choose from, the difficulties are: Easy, Medium, Hard and Extreme!
     * This will allow the user to select a difficulty mode depending on their knowledge level and even go for a harder mode is they are feeling confident.
 
+    ![Image of the four Difficulty Modes](assets/images/difficulty-mode.png)
+
 * Quiz
 
     * Once a difficulty mode is selected, a 20 question quiz will be displayed and each question will have 4 possible options. 
     * The user will be presented with a multiple choice quiz, only one is the correct answer and the user must select an answer before proceeding. If they don’t, the ‘Next’ button will not be displayed and the quiz cannot move forward. 
+
+    ![Image of the quiz with one of many questions](assets/images/quiz.png)
 
 * Answering the Question 
 
     * In each of the 20 questions throughout the difficulty levels, the user will only have one attempt at each question. 
     * If the user selects the correct answer, the button will turn green and the ‘Next’ button will be displayed to advance to the next question. 
     * If the user selects the wrong answer, the button will turn red and the correct answer will revel itself but turning green. 
+
+    ![Image of the quiz when the correct answer is selected](assets/images/correct-answer.png)
+
     * Once a selection has been made, the user will not be able to change it, and the cursor will be blocked when hovering over the answer buttons. 
+
+    ![Image of the quiz when the incorrect answer is selected](assets/images/incorrect-answer.png)
 
 * User Feedback 
 
     * When the user has finished answering all 20 questions, the score will be displayed. It will state to the user how many they got correct and how many they got incorrect. 
     * Based on the users score, a small feedback sentence will be returned. This should be able to encourage the user to try again on the same difficulty to beat their current score or to try a harder level. 
 
+    ![Image of the score and user feedback given to the user at the end of the quiz](assets/images/score-feedback.png)
+
 * End of Quiz
 
     * Along with the feedback, the user will have the opportunity to either restart that same quiz or they will have the option to go back to the homepage and select a different difficulty mode. 
     * The user will have two controls to choose from ‘Restart’ or ‘Home’.  
+
+    ![Image of the buttons presented to the user once they finish the quiz](assets/images/end-buttons.png)
 
 ### Features Left to Implement 
 
