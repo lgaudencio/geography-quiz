@@ -122,6 +122,33 @@ World Capitals Quiz is a JavaScript multiple choice geography quiz game. It allo
     * Canva was used to create the logo in the header, also, that same image was used to create the favicon. 
 
 
+## Testing
+
+### Responsiveness 
+
+During the styling phase for media queries, all pages were tested to ensure responsiveness on screen sizes from 280px and upwards. All pages were tested on Chrome, Safari and Edge browsers.
+
+Steps to test:
+
+1. Open a browser and go to WEBSITE
+2. Right click on the page and select 'Inspect', this will open up developer tools.
+3. Decrease the screen size to 280px.
+4. Click and drag the responsive window to set the width for testing.
+
+Expected:
+
+Website is to be responsive on all screen sizes and no images/logos are to be pixelated or distorted due to stretching. No horizontal scroll appears on mobile devices and nothing overlaps.
+
+Actual:
+
+Website behaved as expected. 
+
+The website was tested for its responsiveness on the following devices and no issues were observed:
+
+* Samsung Galaxy Fold
+* iPad Air
+* Surface Pro 7
+* Nexus 10
 
 ### Functional Testing
 
