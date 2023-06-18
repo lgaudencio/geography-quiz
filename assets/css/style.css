@@ -335,6 +335,16 @@ header a {
     cursor: pointer;
 }
 
+.correct {
+    background: #20bf55;
+    color: #ffffff;
+}
+
+.incorrect {
+    background: #d62828;
+    color: #ffffff;
+}
+
 /* For the Media Queries */
 
 @media screen and (min-width: 280px) {
