@@ -90,33 +90,33 @@ function reset() {
     }
   }
 
-  function pickAnswer(event) {
-    const selectedAnswer = event.target;
-    const correctAnswer = selectedAnswer.dataset.correct === "true";
+function pickAnswer(event) {
+  const selectedAnswer = event.target;
+  const correctAnswer = selectedAnswer.dataset.correct === "true";
   
-    if (correctAnswer) {
-      selectedAnswer.classList.add("correct");
-      score++;
-    } else {
-      selectedAnswer.classList.add("incorrect");
-      incorrect++;
+  if (correctAnswer) {
+    selectedAnswer.classList.add("correct");
+    score++;
+  } else {
+    selectedAnswer.classList.add("incorrect");
+    incorrect++;
+  }
+  
+  const buttons = answerButtons.children;
+  for (let i = 0; i < buttons.length; i++) {
+    const button = buttons[i];
+  
+    if (button.dataset.correct === "true") {
+      button.classList.add("correct");
     }
   
-    const buttons = answerButtons.children;
-    for (let i = 0; i < buttons.length; i++) {
-      const button = buttons[i];
-  
-      if (button.dataset.correct === "true") {
-        button.classList.add("correct");
-      }
-  
-      button.disabled = true;
+    button.disabled = true;
   
     };
   
     nextButton.style.display = "block";
   
-  };
+};
 
 function scoreMessage() {
   if (score === 0) {
