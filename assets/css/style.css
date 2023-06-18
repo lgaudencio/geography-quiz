@@ -123,6 +123,7 @@ header a {
     font-size: 190%;
     font-weight: bold;
     padding-right: 10px;
+    transition: color .2s;
 }
 
 .close-modal:hover {
