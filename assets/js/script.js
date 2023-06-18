@@ -44,7 +44,7 @@ for (let btn of difficulty){
       const json = await response.json();
       questions = json.questions;
       console.log(questions);
-      diffLvl.style.display = "none";
+      difficultyLvl.style.display = "none";
       quizContainer.style.display = "block";
       startQuiz();
     });
