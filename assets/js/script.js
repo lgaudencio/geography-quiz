@@ -51,7 +51,7 @@ for (let btn of difficulty){
 }
 
 function startQuiz() {
-    currentQuestionNumber = 1;
+    currentQuestionNumber = 0;
     score = 0;
     incorrect = 0;
     shuffledQuestions = 0;
