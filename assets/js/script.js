@@ -142,6 +142,7 @@ function resultFeedback() {
 function displayScore() {
   reset();
   displayQuestion.innerText = `Score: ${score} Correct & ${incorrect} Wrong`;
+  resultFeedback(); 
   nextButton.innerText = "Restart";
   homeButton.style.display = "block";
   nextButton.style.display = "block";
