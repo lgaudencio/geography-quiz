@@ -10,15 +10,18 @@ body {
     background-color: #3f4045;
 }
 
+/* Setting the font for H1 elements */
 h1 {
     font-family: Monomaniac One;
 }
 
+/* Setting the fonts for all H2 - H4, text inside the modal and the navigation links */
 h2, h3, h4, .modal-body li, #nav li {
     font-family: Noto Sans Chorasmian;
     letter-spacing: 1px;
 }
 
+/* For colour transitioning when hovering above an element */
 #nav a, .close-modal, .footer-button, .modal-button>button, .social-media i, .get-started, .difficulty-button button {
     transition: color 0.2s;
 }
