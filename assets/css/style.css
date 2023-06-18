@@ -18,6 +18,10 @@ h2, h3, h4, .modal-body li, #nav li {
     letter-spacing: 1px;
 }
 
+#nav a, .close-modal, .footer-button, .modal-button>button, .social-media i, .get-started {
+    transition: color 0.2s;
+}
+
 /* For the Logo Section */
 
 header a {
