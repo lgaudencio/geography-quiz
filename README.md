@@ -156,6 +156,15 @@ Testing was performed on the answer buttons that are displayed with the four pos
 
 The buttons behaved as expected, when the correct answer was selected, the background colour changed to green. If the wrong option was selected, the button turned red and the correct answer button changed to green. Once selection was made, the buttons became inactive and it was not possible to change the answer. 
 
+### Quiz - Control Buttons
+
+Next Button:
+
+* Testing was performed the the ‘Next’ button by going through each quiz difficulty. Once the user clicks on their selected answer button, the ‘Next’ button should appear so the user can proceed to the next question. The ‘Next’ button performed as expected. 
+
+Restart & Home Buttons: 
+
+* Testing was performed on both these buttons by completing a quiz in each difficulty mode, once completed, both these buttons should appear to the user. The ‘Restart’ button will restart the quiz from the difficulty mode that the user first selected and the questions will be in a random order. If the ‘Home’ button is clicked by the user, it will navigate them back to the Homepage (index.html) and the user can select a different difficulty mode. Both these buttons performed as expected. 
 
 ## Deployment 
 
