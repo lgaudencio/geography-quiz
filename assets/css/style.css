@@ -275,6 +275,7 @@ header a {
     margin: 100px auto 0;
     border-radius: 15px;
     padding: 40px;
+    display: none;
 }
 
 .quiz-container h2 {
