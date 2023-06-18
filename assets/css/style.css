@@ -63,6 +63,7 @@ header a {
 #nav a {
     text-decoration: none;
     color: #dddddd;
+    transition: color .2s;
 }
 
 #nav a:hover {
