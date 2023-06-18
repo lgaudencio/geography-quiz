@@ -123,9 +123,9 @@ World Capitals Quiz is a JavaScript multiple choice geography quiz game. It allo
 
 
 
-## Functional Testing
+### Functional Testing
 
-### Navigation Links
+#### Navigation Links
 
 Testing was conducted on the navigation links on all pages to ensure that the corresponding page opens. This was accomplished by clicking on each of the navigation links on each page. Navigation Link (Page Opened):
 
@@ -134,29 +134,29 @@ Testing was conducted on the navigation links on all pages to ensure that the co
 
 Links on all pages navigated to the correct pages as expected.
 
-### Footer Social Media Icons/Links
+#### Footer Social Media Icons/Links
 
 Testing was performed on the Font Awesome Social Media icons to ensure that when the link is clicked, the corresponding page opens in a new tab.
 
 Each item opened in a new tab as expected when clicked. 
 
-### Modal 
+#### Modal 
 
 Testing was performed on the modal to ensure that when it is clicked the modal will display the Rules & Instructions of the quiz. The modal opened as expected and displayed the correct information. 
 
 Testing was also performed on the ‘X’ located on the top right of the modal and the ‘Ok’ button located at the footer of the modal. It is expected that when the user clicks on either of them, the modal shall close. Testing was conducted separately, for obvious reasons, but both elements behaved as expected, they both successfully closed the modal. 
 
-### Play Game (’Get Started!’) Button 
+#### Play Game (’Get Started!’) Button 
 
 Testing was performed on the ‘Get Started!’ button to ensure that when the user clicks it, it takes them to the page where they can select the difficulty mode they wish to play on. Testing was performed by clicking on the button. The button functions as expected, by taking the user to select their preferred difficulty mode. 
 
-### Quiz - Answer Buttons 
+#### Quiz - Answer Buttons 
 
 Testing was performed on the answer buttons that are displayed with the four possible answers. It is expected that when the user clicks on the correct answer, the background colour of the button changes to green and then the user selects the incorrect answer, the background colour will change to red and the correct answer will reveal itself by the background colour changing to green. Once the user makes their selection, the four answer option buttons will be disabled so the user cannot change their answer. 
 
 The buttons behaved as expected, when the correct answer was selected, the background colour changed to green. If the wrong option was selected, the button turned red and the correct answer button changed to green. Once selection was made, the buttons became inactive and it was not possible to change the answer. 
 
-### Quiz - Control Buttons
+#### Quiz - Control Buttons
 
 Next Button:
 
