@@ -127,7 +127,6 @@ header a {
     font-size: 190%;
     font-weight: bold;
     padding-right: 10px;
-    transition: color .2s;
 }
 
 .close-modal:hover {
@@ -214,7 +213,6 @@ header a {
     margin: 5px 30px;
     font-size: 170%;
     color: #dddddd;
-    transition: color .2s;
 }
 
 .social-media i:hover {
