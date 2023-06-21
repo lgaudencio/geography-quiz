@@ -15,6 +15,92 @@ World Capitals Quiz is a JavaScript multiple choice geography quiz game. It allo
 * To ensure the website is full accessible on desktops, tablets and phones.
 * To ensure the game is fully compliant with screen readers. 
 
+## User Stories 
+
+User Story:
+
+*As a user, I like geography games*
+
+Acceptance Criteria: 
+
+* It should be made clear that the website is a geography game. 
+
+Implementation: 
+
+* The quiz is based on a selection of capitals from around the world. The heading of this website is ‘World Capitals Quiz’ and the logo is a minimalistic design of Earth. 
+
+User Story:
+
+*As a user, I want to select the difficulty of the game*
+
+Acceptance Criteria: 
+
+* The user should have a choice of difficulty modes, to select a difficulty mode based on their knowledge level or choose to challenge themselves. 
+
+Implementation: 
+
+* The user will have the ability to select the difficulty mode of the game, giving them four different choices: easy, medium, hard and extreme! This will enable to user to make the game easier or more challenging. 
+
+User Story:
+
+*As a user, I want to know if my answer is correct or incorrect*
+
+Acceptance Criteria: 
+
+* The user should know if their answer choice is correct or incorrect as soon as they have clicked on their selected answer.
+
+Implementation: 
+
+* The user will know if their answer is correct or incorrect. The quiz answer button will highlight green if the selection is correct. If the user selects the wrong answer, their selected answer button will highlight red and the correct answer will highlight in green.
+
+User Story: 
+
+*As a user, I want to know my score at the end of the quiz*
+
+Acceptance Criteria: 
+
+* The user should be able to see their total score at the end of the quiz, both their correct and incorrect choices.
+
+Implementation: 
+
+* The user will be displayed with their total score as soon as they’ve answered at 20 questions. It will specifically state how many they got right and how many they got wrong.
+
+User Story:
+
+*As a user, I want to have choice to either restart the same quiz or choose another difficulty*
+
+Acceptance Criteria: 
+
+* he user should be able to restart the quiz or have a choice to change difficulty modes once they have finished the quiz.
+
+Implementation: 
+
+* Once the user completes the quiz, they will be presented with two buttons, one that will restart the quiz on the same difficulty mode, the other button will navigate them to the home page where they can select a different difficulty to play on.
+
+User Story:
+
+*As a user, I want to have clear instructions on how to play a game*
+
+Acceptance Criteria:
+
+* The user should have clear rules and instructions on how to play the game, that way they are not left wondering around the game.
+
+Implementation: 
+
+* On the landing page, there will be a button that the user can click on. This will open up a modal where the user will be presented with an ordered list of rules and instructions. This modal can be closed in two ways, either by the ‘Ok’ button or by clicking the ‘X’ on the top right and side of the modal container. Once understood, a ‘Get Started!’ button is on the landing page ready for the user to click and start the game.
+
+User Story: 
+
+*As a user, I want to be able to use a screen reader so it can help me play the game*
+
+Acceptance Criteria:
+
+* The user should not have to solely rely on vision for the website to be accessible.
+
+Implementation:
+
+* All none text elements that need to be understood by the user will have associated aria-labels, thus providing information to screen reader users.
+
 ## Features
 
 ### Site Wide
