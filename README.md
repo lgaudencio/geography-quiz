@@ -144,6 +144,15 @@ World Capitals Quiz is a JavaScript multiple choice geography quiz game. It allo
 
 [Home page wireframe for mobile](assets/wireframes/mobile-index-wireframe.png)
 
+* Game Page (Select Difficulty Mode) for Desktop
+
+[Game page wireframe for difficulty seletion on desktop](assets/wireframes/game-wireframe.png)
+
+* Game Page (Select Difficulty Mode) for Mobile 
+
+[Game page wireframe for difficulty seletion on mobile](assets/wireframes/mobile-game-wireframe.png)
+
+
 
 ## Testing
 
