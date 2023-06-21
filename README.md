@@ -134,6 +134,17 @@ World Capitals Quiz is a JavaScript multiple choice geography quiz game. It allo
     * Canva was used to create the logo in the header, also, that same image was used to create the favicon. 
 
 
+## Wireframes 
+
+* Home Page for Desktop
+
+[Home page wireframe for desktop](assets/wireframes/index-wireframe.png)
+
+* Home Page for Mobile 
+
+[Home page wireframe for mobile](assets/wireframes/mobile-index-wireframe.png)
+
+
 ## Testing
 
 ### Responsiveness 
