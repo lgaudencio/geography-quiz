@@ -160,6 +160,8 @@ World Capitals Quiz is a JavaScript multiple choice geography quiz game. It allo
 
 * Layout 
 
+The content of the website has been centred with no distractions on the sides. It was designed to have a minimalistic look as also seen from the logo. This design was to enure that users would not get distracted, having it centred also gives it an easy flow approach and makes it easy to navigate around.
+
 ## Testing
 
 ### Responsiveness 
