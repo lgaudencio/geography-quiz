@@ -223,6 +223,9 @@ Implementation:
 * Canva
     * Canva was used to create the logo in the header, also, that same image was used to create the favicon. 
 
+* Uizard
+    * Uizard was used to create the wireframes for this project. 
+
 
 ## Wireframes 
 
