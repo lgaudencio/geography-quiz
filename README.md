@@ -349,6 +349,22 @@ Restart & Home Buttons:
 
 * Testing was performed on both these buttons by completing a quiz in each difficulty mode, once completed, both these buttons should appear to the user. The ‘Restart’ button will restart the quiz from the difficulty mode that the user first selected and the questions will be in a random order. If the ‘Home’ button is clicked by the user, it will navigate them back to the Homepage (index.html) and the user can select a different difficulty mode. Both these buttons performed as expected. 
 
+### User Feedback Message
+
+* Testing was performed on the feedback section by going through the quiz and making sure each feedback message was displayed correctly given the respected number of correct answers. The following was tested and it performed as expected: 
+
+    * If the user got an overall score of 0 correct questions, the feedback message displayed will be - *"Did you even try?"*
+
+    * If the user got an overall correct score of between 1 and 5, the feedback message displayed will be - *"I think it's time to open an atlas!"*
+
+    * If the user got an overall correct score of between 6 and 10, the feedback message displayed will be - *"Slowly but surley getting there..."*
+
+    * If the user got an overall correct score of between 11 and 15, the feedback message displayed will be - *"More than half, impressive!"*
+
+    * If the user got an overall correct score of between 16 and 19, the feedback message displayed will be - *"Almost there!"*
+
+    * If the user got an overall score of 20 correct questions, the feedback message displayed will be - *"100% - Perfect!"*
+
 ## Deployment 
 
 ### Version Control
