@@ -242,6 +242,14 @@ Implementation:
 
 ![Game page wireframe for difficulty seletion on mobile](assets/wireframes/mobile-game-wireframe.png)
 
+* Quiz for Desktop 
+
+![Quiz wireframe on desktop](assets/wireframes/quiz-wireframe.png)
+
+* Quiz for Mobile
+
+![Quiz wireframe on mobile](assets/wireframes/mobile-quiz-wireframe.png)
+
 ## Design 
 
 * Typography 
