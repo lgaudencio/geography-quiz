@@ -7,6 +7,7 @@ World Capitals Quiz is a web based game built in HTML, CSS and JavaScript. It is
 ![Image showing screen responsiveness on different screens](assets/images/screen-responsiveness.png)
 
 [View the live site on GitHub Pages](https://lgaudencio.github.io/geography-quiz/)
+
 Important: To open links on this document on a new browser tab, please press CRTL + Click. 
 
 ## Site Goals
