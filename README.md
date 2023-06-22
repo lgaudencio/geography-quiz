@@ -252,12 +252,17 @@ Google fonts was used to find a font that would be clean and clear for all users
 
 To ensure that the colours used for the different elements would have a good contract, a website called [Coolors](https://coolors.co/) was used to generate a palette of colours to use.
 
-The main colours used are:
+The main colours used on the website are:
 
-* 
- 
+* #3F4045 - Dark Grey
+* #dddddd - Light Grey
+* #56aeff - Blue
 
 Other colours were used on the quiz part of the site, these colours were:
+
+* #20bf55 - Green (used for correct answer selection)
+* #d62828 - Red (used for incorrect answer selection)
+* #ffffff - White (text colour will change to white when the button hightlight green or red)
 
 * Layout 
 
