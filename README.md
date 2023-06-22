@@ -1,10 +1,13 @@
 # World Capitals Quiz 
 
-World Capitals Quiz is a JavaScript multiple choice geography quiz game. It allows users to select a difficulty mode depending on their world capital knowledge and it will give the user feedback on their end result. 
+## Introduction
+
+World Capitals Quiz is a web based game built in HTML, CSS and JavaScript. It is a multiple choice quiz, based on capitals from around the world. It is targeted towards users who enjoy geography based games with different levels of difficulty. 
 
 ![Image showing screen responsiveness on different screens](assets/images/screen-responsiveness.png)
 
-[World Capitals Quiz Live Link](https://lgaudencio.github.io/geography-quiz/)
+[View the live site on GitHub Pages](https://lgaudencio.github.io/geography-quiz/)
+Important: To open links on this document on a new browser tab, please press CRTL + Click. 
 
 ## Site Goals
 
