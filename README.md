@@ -226,7 +226,6 @@ Implementation:
 * Uizard
     * Uizard was used to create the wireframes for this project. 
 
-
 ## Wireframes 
 
 * Home Page for Desktop
