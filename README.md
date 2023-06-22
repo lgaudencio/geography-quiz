@@ -250,6 +250,15 @@ Google fonts was used to find a font that would be clean and clear for all users
 
 * Colour Scheme 
 
+To ensure that the colours used for the different elements would have a good contract, a website called [Coolors](https://coolors.co/) was used to generate a palette of colours to use.
+
+The main colours used are:
+
+* 
+ 
+
+Other colours were used on the quiz part of the site, these colours were:
+
 * Layout 
 
 The content of the website has been centred with no distractions on the sides. It was designed to have a minimalistic look as also seen from the logo. This design was to enure that users would not get distracted, having it centred also gives it an easy flow approach and makes it easy to navigate around.
