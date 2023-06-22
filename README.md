@@ -246,6 +246,8 @@ Implementation:
 
 * Typography 
 
+Google fonts was used to find a font that would be clean and clear for all users. As the website is for a quiz, a font that is easy to read was a high priority. Two fonts were chosen for the website, Monomaniac One was the font to be used for the main heading (H1) of the website. Noto Sans Chorasmian was the font to be used for all the other text on the website.
+
 * Colour Scheme 
 
 * Layout 
