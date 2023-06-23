@@ -186,6 +186,7 @@ header a {
     font-size: 90%;
     cursor: pointer;
     color: #dddddd;
+    text-decoration: underline 2px solid #56aeff;
 }
 
 .modal-button>button:hover {
