@@ -260,6 +260,14 @@ Implementation:
 
 ### 404 Error Page
 
+* 404 Error Page on Desktop
+
+![404 Error Page wireframe on desktop](docs/wireframes/404-wireframe.png)
+
+* 404 Error Page on Mobile
+
+![404 Error Page wireframe on mobile](docs/wireframes/mobile-404-wireframe.png)
+
 ## Design 
 
 * Typography 
