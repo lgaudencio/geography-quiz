@@ -230,27 +230,27 @@ Implementation:
 
 * Home Page for Desktop
 
-![Home page wireframe for desktop](assets/wireframes/index-wireframe.png)
+![Home page wireframe for desktop](docs/wireframes/index-wireframe.png)
 
 * Home Page for Mobile 
 
-![Home page wireframe for mobile](assets/wireframes/mobile-index-wireframe.png)
+![Home page wireframe for mobile](docs/wireframes/mobile-index-wireframe.png)
 
 * Game Page (Select Difficulty Mode) for Desktop
 
-![Game page wireframe for difficulty seletion on desktop](assets/wireframes/game-wireframe.png)
+![Game page wireframe for difficulty seletion on desktop](docs/wireframes/game-wireframe.png)
 
 * Game Page (Select Difficulty Mode) for Mobile 
 
-![Game page wireframe for difficulty seletion on mobile](assets/wireframes/mobile-game-wireframe.png)
+![Game page wireframe for difficulty seletion on mobile](docs/wireframes/mobile-game-wireframe.png)
 
 * Quiz for Desktop 
 
-![Quiz wireframe on desktop](assets/wireframes/quiz-wireframe.png)
+![Quiz wireframe on desktop](docs/wireframes/quiz-wireframe.png)
 
 * Quiz for Mobile
 
-![Quiz wireframe on mobile](assets/wireframes/mobile-quiz-wireframe.png)
+![Quiz wireframe on mobile](docs/wireframes/mobile-quiz-wireframe.png)
 
 ## Design 
 
