@@ -346,6 +346,29 @@ header a {
     color: #ffffff;
 }
 
+/* For the 404 Error Page */
+
+.error-msg {
+    text-align: center;
+    color: #dddddd;
+    margin-top: 80px;
+}
+  
+.error-msg h2 {
+    font-size: 350%;
+}
+  
+.error-msg h3 {
+    font-size: 200%;
+    margin-bottom: 30px;
+}
+  
+.error-msg a {
+    text-decoration: underline 2px solid #56aeff;
+    font-size: 180%;
+    color: #dddddd;
+}
+
 /* For the Media Queries */
 
 @media screen and (min-width: 280px) {
