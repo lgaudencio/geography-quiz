@@ -228,6 +228,8 @@ Implementation:
 
 ## Wireframes 
 
+### Home Page
+
 * Home Page for Desktop
 
 ![Home page wireframe for desktop](docs/wireframes/index-wireframe.png)
@@ -236,13 +238,17 @@ Implementation:
 
 ![Home page wireframe for mobile](docs/wireframes/mobile-index-wireframe.png)
 
+### Game Page
+
 * Game Page (Select Difficulty Mode) for Desktop
 
 ![Game page wireframe for difficulty seletion on desktop](docs/wireframes/game-wireframe.png)
 
-* Game Page (Select Difficulty Mode) for Mobile 
+* Game Page (Select Difficulty Mode) for Mobile
 
 ![Game page wireframe for difficulty seletion on mobile](docs/wireframes/mobile-game-wireframe.png)
+
+### Quiz
 
 * Quiz for Desktop 
 
@@ -251,6 +257,8 @@ Implementation:
 * Quiz for Mobile
 
 ![Quiz wireframe on mobile](docs/wireframes/mobile-quiz-wireframe.png)
+
+### 404 Error Page
 
 ## Design 
 
