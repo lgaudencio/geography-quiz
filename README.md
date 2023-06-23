@@ -365,6 +365,20 @@ Restart & Home Buttons:
 
     * If the user got an overall score of 20 correct questions, the feedback message displayed will be - *"100% - Perfect!"*
 
+### JSON Files
+
+Testing was performed on the JSON files by selecting the different difficulty modes and checking if the questions that were displayed corresponded with the ones in the JSON file. The expected results were the following:
+
+* If the user clicks on ‘Easy’, the questions on the easy.json file will be loaded to the quiz
+
+* If the user clicks on ‘Medium’, the questions on the medium.json file will be loaded to the quiz
+
+* If the user clicks on ‘Hard’, the questions on the hard.json file will be loaded to the quiz
+
+* If the user clicks on ‘Extreme’, the questions on the extreme.json file will be loaded to the quiz
+
+The expected results performed as expected.
+
 ## Deployment 
 
 ### Version Control
