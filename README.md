@@ -397,7 +397,7 @@ Testing was performed on the JSON files by selecting the different difficulty mo
 
 The expected results performed as expected.
 
-## Validator Testing
+### Validator Testing
 
 * HTML 
     * No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/)
