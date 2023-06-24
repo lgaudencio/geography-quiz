@@ -4,7 +4,7 @@
 
 World Capitals Quiz is a web based game built in HTML, CSS and JavaScript. It is a multiple choice quiz, based on capitals from around the world. It is targeted towards users who enjoy geography based games with different levels of difficulty. 
 
-![Image showing screen responsiveness on different screens](assets/images/screen-responsiveness.png)
+![Image showing screen responsiveness on different screens](docs/readme_images/screen-responsiveness.png)
 
 [View the live site on GitHub Pages](https://lgaudencio.github.io/geography-quiz/)
 
@@ -113,19 +113,19 @@ Implementation:
     * The navigation menu contains links to Home and Quiz pages and it is responsive on all devices. 
     * This will allow the user to easily navigate between these pages on a device of any size. 
 
-![Image of the Navigation Menu](assets/images/nav-bar.png)
+![Image of the Navigation Menu](docs/readme_images/nav-bar.png)
 
 * Footer: 
     * The footer will contain the social media links to Instagram, Facebook and Twitter. 
     * This will allow the user to follow us and the above platforms to see when we release more quizzes for them to attempt. 
 
-![Image of the Footer](assets/images/footer.png)
+![Image of the Footer](docs/readme_images/footer.png)
 
 * Favicon: 
     * A favicon is added to every page, this favicon image is the same as our logo.  
     * By using a favicon, it will allow the user to easily identify the website in case they have multiple tabs opened. 
 
-![Image of the Favicon](assets/images/favicon.png)
+![Image of the Favicon](docs/readme_images/favicon.png)
 
 * 404 Page: 
     * A 404 error page is implemented, just in case the user happens to navigate to a broken link. 
@@ -138,16 +138,16 @@ Implementation:
     * The home page will have a button that user will be encouraged to click on for the rules and instructions in relation to the quiz. When this button is clicked, a modal will be displayed. 
     * This was implemented so that the user can have a clear understanding of how to play the game. 
 
-    ![Image of the Modal Button](assets/images/modal-button.png)
+    ![Image of the Modal Button](docs/readme_images/modal-button.png)
 
-    ![Image of the Modal Content](assets/images/modal-content.png)
+    ![Image of the Modal Content](docs/readme_images/modal-content.png)
 
 * Game Start Button 
 
     * A button labelled ‘Get Started!’ will direct the user to select a difficulty mode.
     * This will allow the user to select their desired difficulty mode and start the game. 
 
-    ![Image of the Game Button](assets/images/game-button.png)
+    ![Image of the Game Button](docs/readme_images/game-button.png)
 
 ### Game Page
 
@@ -156,14 +156,14 @@ Implementation:
     * The page will have four difficulty modes to choose from, the difficulties are: Easy, Medium, Hard and Extreme!
     * This will allow the user to select a difficulty mode depending on their knowledge level and even go for a harder mode is they are feeling confident.
 
-    ![Image of the four Difficulty Modes](assets/images/difficulty-mode.png)
+    ![Image of the four Difficulty Modes](docs/readme_images/difficulty-mode.png)
 
 * Quiz
 
     * Once a difficulty mode is selected, a 20 question quiz will be displayed and each question will have 4 possible options. 
     * The user will be presented with a multiple choice quiz, only one is the correct answer and the user must select an answer before proceeding. If they don’t, the ‘Next’ button will not be displayed and the quiz cannot move forward. 
 
-    ![Image of the quiz with one of many questions](assets/images/quiz.png)
+    ![Image of the quiz with one of many questions](docs/readme_images/quiz.png)
 
 * Answering the Question 
 
@@ -171,25 +171,25 @@ Implementation:
     * If the user selects the correct answer, the button will turn green and the ‘Next’ button will be displayed to advance to the next question. 
     * If the user selects the wrong answer, the button will turn red and the correct answer will revel itself but turning green. 
 
-    ![Image of the quiz when the correct answer is selected](assets/images/correct-answer.png)
+    ![Image of the quiz when the correct answer is selected](docs/readme_images/correct-answer.png)
 
     * Once a selection has been made, the user will not be able to change it, and the cursor will be blocked when hovering over the answer buttons. 
 
-    ![Image of the quiz when the incorrect answer is selected](assets/images/incorrect-answer.png)
+    ![Image of the quiz when the incorrect answer is selected](docs/readme_images/incorrect-answer.png)
 
 * User Feedback 
 
     * When the user has finished answering all 20 questions, the score will be displayed. It will state to the user how many they got correct and how many they got incorrect. 
     * Based on the users score, a small feedback sentence will be returned. This should be able to encourage the user to try again on the same difficulty to beat their current score or to try a harder level. 
 
-    ![Image of the score and user feedback given to the user at the end of the quiz](assets/images/score-feedback.png)
+    ![Image of the score and user feedback given to the user at the end of the quiz](docs/readme_images/score-feedback.png)
 
 * End of Quiz
 
     * Along with the feedback, the user will have the opportunity to either restart that same quiz or they will have the option to go back to the homepage and select a different difficulty mode. 
     * The user will have two controls to choose from ‘Restart’ or ‘Home’.  
 
-    ![Image of the buttons presented to the user once they finish the quiz](assets/images/end-buttons.png)
+    ![Image of the buttons presented to the user once they finish the quiz](docs/readme_images/end-buttons.png)
 
 ### Features Left to Implement 
 
