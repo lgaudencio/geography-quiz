@@ -131,6 +131,8 @@ Implementation:
     * A 404 error page is implemented, just in case the user happens to navigate to a broken link. 
     * If the user lands on this page, they will easily be navigated back to the hame page by their clicking on the link given, or by clicking the header. There will be no need to use the back button on the browser. 
 
+![Image of the 404 Error Page](docs/readme_images/404-page.png)
+
 ### Home Page
 
 * Rules and Instructions Modal
