@@ -16,7 +16,7 @@ h1 {
 }
 
 /* Setting the fonts for all H2 - H4, text inside the modal and the navigation links */
-h2, h3, h4, p, .modal-body li, #nav li, .error-msg a {
+h2, h3, h4, .modal-body li, #nav li, .error-msg a {
     font-family: Noto Sans Chorasmian;
     letter-spacing: 1px;
 }
