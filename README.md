@@ -408,6 +408,11 @@ The expected results performed as expected.
 
 ![Validator testing for the 404.html](docs/readme_images/404-validator.png)
 
+* CSS
+    * No errors were found when passing through the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/)
+
+![Validator testing for the css](docs/readme_images/css-validator.png)
+
 ## Deployment 
 
 ### Version Control
