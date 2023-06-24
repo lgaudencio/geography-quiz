@@ -397,6 +397,17 @@ Testing was performed on the JSON files by selecting the different difficulty mo
 
 The expected results performed as expected.
 
+## Validator Testing
+
+* HTML 
+    * No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/)
+
+![Validator testing for the index.html](docs/readme_images/index-validator.png)
+
+![Validator testing for the game.html](docs/readme_images/game-validator.png)
+
+![Validator testing for the 404.html](docs/readme_images/404-validator.png)
+
 ## Deployment 
 
 ### Version Control
