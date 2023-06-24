@@ -50,6 +50,10 @@ for (let btn of difficulty){
     });
 }
 
+/**
+ * This function is responsible for starting the quiz, whether a new 
+ * quiz or if the user chooses to restart a quiz that finished 
+ */
 function startQuiz() {
     currentQuestionNumber = 0;
     score = 0;
