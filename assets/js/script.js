@@ -148,6 +148,10 @@ function displayScore() {
   nextButton.style.display = "block";
 };
   
+/**
+ * This function is reponsible for handling the question when 
+ * the user clicks the 'Next' button
+ */
 function nextButtonControl() {
   currentQuestionNumber++;
   if (currentQuestionNumber < questions.length) {
