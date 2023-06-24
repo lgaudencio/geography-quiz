@@ -118,6 +118,10 @@ function pickAnswer(event) {
   
 };
 
+/** 
+ * This function is responsible to read the score of the user at the end
+ * of the quiz, based on the score, a feedback message will be returned
+ */
 function scoreMessage() {
   if (score === 0) {
     return `Did you even try?`;
