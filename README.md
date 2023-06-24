@@ -413,6 +413,13 @@ The expected results performed as expected.
 
 ![Validator testing for the css](docs/readme_images/css-validator.png)
 
+### Lighthouse Testing
+
+* Lighthouse 
+    * The lighthouse report gave a score of 97, 100, 100, 100. 
+
+![Lighthouse report](docs/readme_images/lighthouse-testing.png)
+
 ## Deployment 
 
 ### Version Control
