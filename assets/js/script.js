@@ -139,6 +139,11 @@ function resultFeedback() {
   feedbackSection.innerText = `${scoreMessage()}`
 };
 
+/**
+ * This function is reponsible for displaying the total score 
+ * (correct and incorrect answers), feedback depending on the 
+ * end result, a 'Restart' button and a 'Home' button
+ */
 function displayScore() {
   reset();
   displayQuestion.innerText = `Score: ${score} Correct & ${incorrect} Wrong`;
