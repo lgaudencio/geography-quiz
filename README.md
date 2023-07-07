@@ -453,3 +453,7 @@ To clone the Github repository to use locally, the following will have to be don
 * Type git clone copied-git-url into the terminal of the IDE
 
 Once these steps are followed, the project will be cloned on your local machine ready for use.
+
+## Credits 
+
+* The JavaScript used for the modal was based on the one that can be found on the W3Schools website, which can be found [here](https://www.w3schools.com/howto/howto_css_modals.asp). For best practices, it was written in ES6 by the use of arrow functions. 
