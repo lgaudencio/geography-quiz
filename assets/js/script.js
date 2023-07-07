@@ -86,6 +86,11 @@ function presentQuestion() {
     };
 }
 
+/**
+ * This function is responsible for resetting the quiz container
+ * for the next question once the user answers the current question
+ * and clicks the 'Next' button
+ */
 function reset() {
   homeButton.style.display = "none";
   nextButton.style.display = "none";
