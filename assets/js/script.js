@@ -99,6 +99,13 @@ function reset() {
   }
 }
 
+/**
+ * This function is responsible for three things, the first being that 
+ * it adds the correct class to the buttons when the user picks their 
+ * answer, it will keep count of the correct and incorrect answers and 
+ * it will block the buttons from being pressed once the user has made 
+ * their selection 
+ */
 function pickAnswer(event) {
   const selectedAnswer = event.target;
   const correctAnswer = selectedAnswer.dataset.correct === "true";
