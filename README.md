@@ -342,6 +342,18 @@ The [WAVE Accessibility](https://wave.webaim.org/) website was used throughout t
 
 * WCAG 2.1 Coding best practices have been followed
 
+### Notable Bugs
+
+Only one notible bug creeped up during the development or testing of the site. 
+
+Issue: 
+
+* During the development of the the site, there was a bug when running the JavaScript file. Initially, the JavaScript code for both the modal and the quiz was on one file. While testing the JavaScript code of the quiz, it was noted that the code for the modal was causing a bug. 
+
+Fix: 
+
+* To fix the above issue, a new JavaScript file was created just for the modal code. Once it was moved over, the bug disappeared. 
+
 ### Functional Testing
 
 #### Navigation Links
