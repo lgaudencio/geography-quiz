@@ -324,6 +324,24 @@ The website was tested for its responsiveness on the following devices and no is
 * Surface Pro 7
 * Nexus 10
 
+### Accessibility 
+
+The [WAVE Accessibility](https://wave.webaim.org/) website was used throughout the development and for the final testing of the deployed site to check for any aid accessibility testing.
+
+* Testing was conducted to ensure that the following criteria points were met:
+
+* All social media links located at the footer of the site have associated aria-labels, this is so that it is read out to users who have to use a screen reader
+
+* Colour contrasts on the site meet a minimum ratio this is specified on the [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
+
+* Headings levels are not missed or skipped, this is to ensure the importance of content is relayed correctly to the user
+
+* All content is contained within landmarks to ensure ease of use for assistive technology, this will allow the user to navigate by page regions 
+
+* All HTML pages have a lang attribute set
+
+* WCAG 2.1 Coding best practices have been followed
+
 ### Functional Testing
 
 #### Navigation Links
