@@ -487,3 +487,12 @@ Once these steps are followed, the project will be cloned on your local machine 
 ## Credits 
 
 * The JavaScript used for the modal was based on the one that can be found on the W3Schools website, which can be found [here](https://www.w3schools.com/howto/howto_css_modals.asp). For best practices, it was written in ES6 by the use of arrow functions. 
+
+* Inspiration for this project was from [this](https://youtube.com/watch?v=PBcqGxrr9g8&feature=share) YouTube tutorial. New features were incorporated into this project, mainly to increase user experience. Other changes came in the form of the actual code to make it more readable. New features and changes include: 
+
+    * All for each loops were changed into for loops to make the code more readable. 
+    * An async function was used to fetch the questions from the relevant JSON files, this was to stop overcrowding the script page with hundreds of lines for the questions and answers. The idea the use an async file came from [here](https://www.sitepoint.com/javascript-async-await/).
+    * Once th difficulty mode is selected, it will be hidden and the quiz will show to the user. This was used as it was easier to implement than local storage. 
+    * Feedback section added to display a little message to the user at the end of the quiz. 
+    * Just like the correct answers, the incorrect answers are also counted and displayed to the user at the end of the quiz. 
+    * To add to the user experience, a home button was added at the end of the quiz so the user doesn't need to click on the logo to return home. 
