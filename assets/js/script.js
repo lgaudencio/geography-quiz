@@ -175,7 +175,7 @@ function scoreMessage() {
   } else if (score <= 19) {
     return `Almost there!`;
   } else if (score === 20) {
-    return `100% - Perfect!`
+    return `100% - Perfect!`;
   }
 };
 
@@ -187,7 +187,7 @@ function scoreMessage() {
  */
 function resultFeedback() {
   document.querySelector("#feedback").hidden = false;
-  feedbackSection.innerText = `${scoreMessage()}`
+  feedbackSection.innerText = `${scoreMessage()}`;
 };
 
 /**
@@ -214,7 +214,7 @@ function displayScore() {
 function nextButtonControl() {
   currentQuestionNumber++;
   if (currentQuestionNumber < questions.length) {
-    presentQuestion()
+    presentQuestion();
   } else {
     displayScore();
   }
