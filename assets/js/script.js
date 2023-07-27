@@ -197,9 +197,12 @@ function resultFeedback() {
  */
 function displayScore() {
   reset();
+  //Both correct and incorrect scores are counted and displayed to the user
   displayQuestion.innerText = `Score: ${score} Correct & ${incorrect} Wrong`;
+  //Feedback message displayed to the user at the end of quiz
   resultFeedback(); 
   nextButton.innerText = "Restart";
+  //Home button added for better user experience 
   homeButton.style.display = "block";
   nextButton.style.display = "block";
 };
