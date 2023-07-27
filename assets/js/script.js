@@ -1,5 +1,14 @@
 // JAVASCRIPT FOR THE QUIZ
 
+/**
+ * Inspiration for this quiz was from a YouTube video which can be found below:
+ * https://youtube.com/watch?v=PBcqGxrr9g8&feature=share 
+ * The name of this YouTube creator is GreatStack
+ * 
+ * Changes were made from the above tutorial to incorporate new features 
+ * to the project and to be more user friendly.
+ */
+
 // Declare varibale so the questions on the JSON file will be displayed to the user
 const displayQuestion = document.querySelector("#display-question");
 
