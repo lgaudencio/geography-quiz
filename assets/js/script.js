@@ -75,8 +75,10 @@ for (let btn of difficulty){
 function startQuiz() {
     currentQuestionNumber = 0;
     score = 0;
+    //Feature of incorrect answers given was added 
     incorrect = 0;
     shuffledQuestions = 0;
+    //Feedback will only become visable at the end of the quiz
     document.querySelector("#feedback").hidden = true;
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     nextButton.innerHTML = "Next";
