@@ -47,6 +47,12 @@ let shuffledQuestions = 0;
 
 let questions = [];
 
+/**
+ * This async function is used to call the questions from the relevant 
+ * JSON file depending on the difficulty mode selected. 
+ * The idea to use an async function can be found on the link below:
+ * https://www.sitepoint.com/javascript-async-await/
+ */
 for (let btn of difficulty){
     btn.addEventListener("click", async function() {
       let response = await fetch(`${btn.value}.json`);
