@@ -104,7 +104,7 @@ function presentQuestion() {
         button.dataset.correct = answer.correct;
         }
         button.addEventListener("click", pickAnswer);
-    };
+    }
 }
 
 /**
@@ -151,11 +151,11 @@ function pickAnswer(event) {
   
     button.disabled = true;
   
-    };
+    }
   
     nextButton.style.display = "block";
   
-};
+}
 
 /** 
  * This function is responsible to read the score of the user at the end
@@ -177,7 +177,7 @@ function scoreMessage() {
   } else if (score === 20) {
     return `100% - Perfect!`;
   }
-};
+}
 
 /**
  * This function is responsible in displaying the feedback message, 
@@ -188,7 +188,7 @@ function scoreMessage() {
 function resultFeedback() {
   document.querySelector("#feedback").hidden = false;
   feedbackSection.innerText = `${scoreMessage()}`;
-};
+}
 
 /**
  * This function is reponsible for displaying the total score 
@@ -205,7 +205,7 @@ function displayScore() {
   //Home button added for better user experience 
   homeButton.style.display = "block";
   nextButton.style.display = "block";
-};
+}
   
 /**
  * This function is reponsible for handling the question when 
@@ -218,7 +218,7 @@ function nextButtonControl() {
   } else {
     displayScore();
   }
-};
+}
 
 nextButton.addEventListener("click", () => {
   if (currentQuestionNumber < questions.length) {
