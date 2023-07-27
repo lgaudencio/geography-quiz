@@ -140,6 +140,8 @@ function pickAnswer(event) {
   }
   
   const buttons = answerButtons.children;
+  
+  //A for loop was added instead of a for each loop to make readability easier
   for (let i = 0; i < buttons.length; i++) {
     const button = buttons[i];
   
