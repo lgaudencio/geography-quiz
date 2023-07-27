@@ -91,6 +91,7 @@ function presentQuestion() {
     let questionNumber = currentQuestionNumber + 1;
     displayQuestion.innerHTML = `${questionNumber}&#41; ${displayedQuestion.question}&#63;`;
   
+    //A for loop was added instead of a for each loop to make readability easier
     for (let i = 0; i < displayedQuestion.answers.length; i++) {
       const answer = displayedQuestion.answers[i];
   
