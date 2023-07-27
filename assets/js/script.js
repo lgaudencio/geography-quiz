@@ -59,6 +59,10 @@ for (let btn of difficulty){
       const json = await response.json();
       questions = json.questions;
       console.log(questions);
+      /**
+       * Difficulty modes will disappear when one is clicked and the quiz will load on the same page.
+       * This is a new added feature as it was easier than using local storage.
+       */
       difficultyLvl.style.display = "none";
       quizContainer.style.display = "block";
       startQuiz();
