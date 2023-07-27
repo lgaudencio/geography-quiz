@@ -140,7 +140,7 @@ function pickAnswer(event) {
   }
   
   const buttons = answerButtons.children;
-  
+
   //A for loop was added instead of a for each loop to make readability easier
   for (let i = 0; i < buttons.length; i++) {
     const button = buttons[i];
@@ -159,7 +159,9 @@ function pickAnswer(event) {
 
 /** 
  * This function is responsible to read the score of the user at the end
- * of the quiz, based on the score, a feedback message will be returned
+ * of the quiz, based on the score, a feedback message will be returned.
+ * New feature which will display a message to the user to enhance 
+ * game play. 
  */
 function scoreMessage() {
   if (score === 0) {
