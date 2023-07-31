@@ -443,6 +443,18 @@ The expected results performed as expected.
 
 ![Validator testing for the css](docs/readme_images/css-validator.png)
 
+* JavaScript
+    * No errors were returned when passing through the [JSHint Validator](https://jshint.com/)
+    * A warning did appear for the async function, but it's because the checker only does ES6 and below. 
+
+Validator testing for the modal JavaScript file: 
+
+![Validator testing for the modal JavaScript file](docs/readme_images/modal-jshint.png)
+
+Validator testing for the quiz JavaScript file: 
+
+![Validator testing for the quiz JavaScript file](docs/readme_images/quiz-jshint.png)
+
 ### Lighthouse Testing
 
 * Lighthouse 
