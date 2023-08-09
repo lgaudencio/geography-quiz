@@ -16,7 +16,7 @@ Important: To open links on this document on a new browser tab, please press CRT
 * To ensure that users can navigate the website easily and intuitively, without having to work out where to go.
 * To provide users with different difficulty levels.
 * To provide users with a score at the end of the quiz.
-* To ensure the website is full accessible on desktops, tablets and phones.
+* To ensure the website is fully accessible on desktops, tablets and phones.
 * To ensure the game is fully compliant with screen readers. 
 
 ## User Stories 
@@ -55,7 +55,7 @@ Acceptance Criteria:
 
 Implementation: 
 
-* The user will know if their answer is correct or incorrect. The quiz answer button will highlight green if the selection is correct. If the user selects the wrong answer, their selected answer button will highlight red and the correct answer will highlight in green.
+* The user will know if their answer is correct or incorrect. The quiz answer button will highlight green if the selection is correct. If the user selects the wrong answer, their selected answer button will highlight in red and the correct answer will highlight in green.
 
 User Story: 
 
@@ -67,19 +67,19 @@ Acceptance Criteria:
 
 Implementation: 
 
-* The user will be displayed with their total score as soon as they’ve answered at 20 questions. It will specifically state how many they got right and how many they got wrong.
+* The user will be displayed with their total score as soon as they’ve answered 20 questions. It will specifically state how many they got right and how many they got wrong.
 
 User Story:
 
-*As a user, I want to have choice to either restart the same quiz or choose another difficulty*
+*As a user, I want to have the choice to either restart the same quiz or choose another difficulty*
 
 Acceptance Criteria: 
 
-* he user should be able to restart the quiz or have a choice to change difficulty modes once they have finished the quiz.
+* The user should be able to restart the quiz or have a choice to change difficulty modes once they have finished the quiz.
 
 Implementation: 
 
-* Once the user completes the quiz, they will be presented with two buttons, one that will restart the quiz on the same difficulty mode, the other button will navigate them to the home page where they can select a different difficulty to play on.
+* Once the user completes the quiz, they will be presented with two buttons, one that will restart the quiz on the same difficulty mode and the other button will navigate them to the home page where they can select a different difficulty to play on.
 
 User Story:
 
@@ -87,7 +87,7 @@ User Story:
 
 Acceptance Criteria:
 
-* The user should have clear rules and instructions on how to play the game, that way they are not left wondering around the game.
+* The user should have clear rules and instructions on how to play the game, that way they are not left wandering around the game.
 
 Implementation: 
 
@@ -129,7 +129,7 @@ Implementation:
 
 * 404 Page: 
     * A 404 error page is implemented, just in case the user happens to navigate to a broken link. 
-    * If the user lands on this page, they will easily be navigated back to the hame page by their clicking on the link given, or by clicking the header. There will be no need to use the back button on the browser. 
+    * If the user lands on this page, they will easily be navigated back to the home page by clicking on the link given, or by clicking the header. There will be no need to use the back button on the browser. 
 
 ![Image of the 404 Error Page](docs/readme_images/404-page.png)
 
@@ -137,7 +137,7 @@ Implementation:
 
 * Rules and Instructions Modal
 
-    * The home page will have a button that user will be encouraged to click on for the rules and instructions in relation to the quiz. When this button is clicked, a modal will be displayed. 
+    * The home page will have a button that the user will be encouraged to click on for the rules and instructions concerning the quiz. When this button is clicked, a modal will be displayed. 
     * This was implemented so that the user can have a clear understanding of how to play the game. 
 
     ![Image of the Modal Button](docs/readme_images/modal-button.png)
@@ -156,7 +156,7 @@ Implementation:
 * Difficulty Mode 
 
     * The page will have four difficulty modes to choose from, the difficulties are: Easy, Medium, Hard and Extreme!
-    * This will allow the user to select a difficulty mode depending on their knowledge level and even go for a harder mode is they are feeling confident.
+    * This will allow the user to select a difficulty mode depending on their knowledge level and even go for a harder mode if they are feeling confident.
 
     ![Image of the four Difficulty Modes](docs/readme_images/difficulty-mode.png)
 
@@ -171,7 +171,7 @@ Implementation:
 
     * In each of the 20 questions throughout the difficulty levels, the user will only have one attempt at each question. 
     * If the user selects the correct answer, the button will turn green and the ‘Next’ button will be displayed to advance to the next question. 
-    * If the user selects the wrong answer, the button will turn red and the correct answer will revel itself but turning green. 
+    * If the user selects the wrong answer, the button will turn red and the correct answer will reveal itself by turning green. 
 
     ![Image of the quiz when the correct answer is selected](docs/readme_images/correct-answer.png)
 
@@ -274,7 +274,7 @@ Implementation:
 
 * Typography 
 
-Google fonts was used to find a font that would be clean and clear for all users. As the website is for a quiz, a font that is easy to read was a high priority. Two fonts were chosen for the website, Monomaniac One was the font to be used for the main heading (H1) of the website. Noto Sans Chorasmian was the font to be used for all the other text on the website.
+Google Fonts were used to find a font that would be clean and clear for all users. As the website is for a quiz, a font that is easy to read was a high priority. Two fonts were chosen for the website, Monomaniac One was the font to be used for the main heading (H1) of the website. Noto Sans Chorasmian was the font to be used for all the other text on the website.
 
 * Colour Scheme 
 
@@ -290,11 +290,11 @@ Other colours were used on the quiz part of the site, these colours were:
 
 * #20bf55 - Green (used for correct answer selection)
 * #d62828 - Red (used for incorrect answer selection)
-* #ffffff - White (text colour will change to white when the button hightlight green or red)
+* #ffffff - White (text colour will change to white when the button highlights green or red)
 
 * Layout 
 
-The content of the website has been centred with no distractions on the sides. It was designed to have a minimalistic look as also seen from the logo. This design was to enure that users would not get distracted, having it centred also gives it an easy flow approach and makes it easy to navigate around.
+The content of the website has been centred with no distractions on the sides. It was designed to have a minimalistic look as also seen from the logo. This design was to ensure that users would not get distracted, having it centred also gives it an easy flow approach and makes it easy to navigate around.
 
 ## Testing
 
@@ -344,11 +344,11 @@ The [WAVE Accessibility](https://wave.webaim.org/) website was used throughout t
 
 ### Notable Bugs
 
-Only one notible bug creeped up during the development or testing of the site. 
+Only one notable bug crept up during the development or testing of the site. 
 
 Issue: 
 
-* During the development of the the site, there was a bug when running the JavaScript file. Initially, the JavaScript code for both the modal and the quiz was on one file. While testing the JavaScript code of the quiz, it was noted that the code for the modal was causing a bug. 
+* During the development of the site, there was a bug when running the JavaScript file. Initially, the JavaScript code for both the modal and the quiz was on one file. While testing the JavaScript code of the quiz, it was noted that the code for the modal was causing a bug. 
 
 Fix: 
 
@@ -385,7 +385,7 @@ Testing was performed on the ‘Get Started!’ button to ensure that when the u
 
 Testing was performed on the answer buttons that are displayed with the four possible answers. It is expected that when the user clicks on the correct answer, the background colour of the button changes to green and then the user selects the incorrect answer, the background colour will change to red and the correct answer will reveal itself by the background colour changing to green. Once the user makes their selection, the four answer option buttons will be disabled so the user cannot change their answer. 
 
-The buttons behaved as expected, when the correct answer was selected, the background colour changed to green. If the wrong option was selected, the button turned red and the correct answer button changed to green. Once selection was made, the buttons became inactive and it was not possible to change the answer. 
+The buttons behaved as expected, when the correct answer was selected, the background colour changed to green. If the wrong option was selected, the button turned red and the correct answer button changed to green. Once the selection was made, the buttons became inactive and it was not possible to change the answer. 
 
 #### Quiz - Control Buttons
 
@@ -405,7 +405,7 @@ Restart & Home Buttons:
 
     * If the user got an overall correct score of between 1 and 5, the feedback message displayed will be - *"I think it's time to open an atlas!"*
 
-    * If the user got an overall correct score of between 6 and 10, the feedback message displayed will be - *"Slowly but surley getting there..."*
+    * If the user got an overall correct score of between 6 and 10, the feedback message displayed will be - *"Slowly but surely getting there..."*
 
     * If the user got an overall correct score of between 11 and 15, the feedback message displayed will be - *"More than half, impressive!"*
 
@@ -504,7 +504,7 @@ Once these steps are followed, the project will be cloned on your local machine 
 
     * All for each loops were changed into for loops to make the code more readable. 
     * An async function was used to fetch the questions from the relevant JSON files, this was to stop overcrowding the script page with hundreds of lines for the questions and answers. The idea the use an async file came from [here](https://www.sitepoint.com/javascript-async-await/).
-    * Once th difficulty mode is selected, it will be hidden and the quiz will show to the user. This was used as it was easier to implement than local storage. 
+    * Once the difficulty mode is selected, it will be hidden and the quiz will show to the user. This was used as it was easier to implement than local storage. 
     * Feedback section added to display a little message to the user at the end of the quiz. 
     * Just like the correct answers, the incorrect answers are also counted and displayed to the user at the end of the quiz. 
     * To add to the user experience, a home button was added at the end of the quiz so the user doesn't need to click on the logo to return home. 
